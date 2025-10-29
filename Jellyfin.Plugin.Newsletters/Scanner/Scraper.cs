@@ -173,6 +173,7 @@ public class Scraper
                     }
 
                     logger.Debug($"Season: {season.Name}"); // Season Name
+                    logger.Debug($"Season Number: {season.IndexNumber}"); // Season Name
                     logger.Debug($"Episode Name: {episode.Name}"); // episode Name
                     logger.Debug($"Episode Number: {episode.IndexNumber}"); // episode Name
                     logger.Debug($"Overview: {series.Overview}"); // series overview
